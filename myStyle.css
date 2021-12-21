@@ -448,6 +448,7 @@ body{
     .curve{
         justify-content: center;
         width: 375px;
+        height: auto;
     } 
     
     
