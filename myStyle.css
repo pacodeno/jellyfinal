@@ -440,10 +440,24 @@ body{
     display: flex;
 }
 
+.curve{
+    justify-content: center;
+} 
+
+@media (max-width: 400px) {
+    .curve{
+        justify-content: center;
+        width: 375px;
+    } 
+    
+    
+}
 #historyContainer{
     width: 1440px;
     background-color: rgb(69,91,153);
 }
+
+
 
 @media (max-width: 400px) {
     #historyContainer{
